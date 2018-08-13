@@ -1,0 +1,27 @@
+{
+  "name": "about-javascript-and-dom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "npm run jest",
+    "jest": "jest",
+    "test:watch": "npm run jest -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AMPotter/about-javascript-and-dom.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AMPotter/about-javascript-and-dom/issues"
+  },
+  "homepage": "https://github.com/AMPotter/about-javascript-and-dom#readme",
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "jest": "^23.5.0"
+  }
+}
