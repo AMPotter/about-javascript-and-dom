@@ -65,6 +65,5 @@ describe('Variables, Arguments, Values, and References', () => {
     
     expect(garfVar.deadGarf).toBe(true);
     expect(garfVar).toBe(garf);
-
   });
 });
